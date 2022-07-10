@@ -1,7 +1,10 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: cornflowerblue;
+    /* background-image: linear-gradient(to right ,#ffed22,#9733EE); */
 }
+
 .container {
     width: 600px;
     height: 200px;
@@ -14,4 +17,14 @@ body {
     border: none;
     border-radius: 25px;
     margin-top: 5rem;
+    text-shadow: 2px 2px 5px;
+    box-shadow: 10px 10px 20px;
+}
+
+span {
+    box-shadow: 10px 10px 20px;
+    font-family: monospace;
+    background-color: white;
+    padding: .6rem;
+    border-radius: 20px;
 }
